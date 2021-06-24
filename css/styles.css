@@ -125,6 +125,7 @@ body {
 
 .features-title {
   font-weight: bold;
+  font-size: inherit;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
