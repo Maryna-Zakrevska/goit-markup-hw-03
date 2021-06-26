@@ -35,8 +35,7 @@ p {
   margin-bottom: 0;
 }
 
-ul,
-ol {
+ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -164,13 +163,13 @@ img {
   background: var(--background-color-dark);
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color-white);
@@ -184,8 +183,6 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--text-color-white);
 
@@ -196,8 +193,6 @@ img {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 30px;
-  margin-right: 700px;
-  margin-left: 700px;
 }
 
 /*======FEATURES======*/
@@ -280,7 +275,7 @@ img {
 }
 
 .team-item {
-  background: white;
+  background-color: var(--background-color-main);
   box-shadow: 0px 4px 4px 0px #00000040;
 }
 
